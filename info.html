@@ -15,22 +15,6 @@
         h2 {
             color: #00CC33;
         }
-        .lead {
-            justify-content: center;
-        }
-        #tekst {
-            width: 65%;
-            background-color: #fff;
-            padding: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            border: 2px dashed #CCCC00;
-            border-radius: 10px;
-        }
-        #film {
-            margin-left: auto;
-            margin-right: auto;
-        }
     </style>
   </head>
   <body>
@@ -46,22 +30,22 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Strona Główna</a>
+                        <a href="index.html" class="nav-link">Strona Główna</a>
                     </li>
                     <li class="nav-item">
                         <a href="photos.html" class="nav-link">Zdjęcia</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Opis</a>
+                        <a href="info.html" class="nav-link"> <strong class="text-white"> Opis </strong> </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Co zabrać</a>
+                        <a href="takewith.html" class="nav-link">Co zabrać</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Trasa</a>
+                        <a href="road.html" class="nav-link">Trasa</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">O nas</a>
+                        <a href="about.html" class="nav-link">O nas</a>
                     </li>
                 </ul>
             </div>
@@ -75,7 +59,7 @@
                 <div>
                     <h1 id="p"></h1>
                     <p class="lead my-4">Omówienie rodzinnej wycieczki w góry</p>
-                    <button class="btn btn-primary btn-lg">Zobacz więcej</button>
+                    <button class="btn btn-success btn-lg">Zobacz więcej</button>
                 </div>
                 <img src="img/ikona.png" alt="" class="img-fluid ms-auto w-50 d-none d-sm-block">
             </div>
@@ -128,10 +112,12 @@
             </div>
 
             <!-- film -->
-            <div id="film" class="d-flex align-items-center justify-content-center">
+            <div id="film" class="d-flex align-items-center justify-content-center my-3">
                 <h2>Zobacz nasz film</h2>
                 <div>
-                    <button class="btn btn-success my-3 ms-auto" type="button">Zobacz film z wycieczki</button>
+                    <a href="https://youtu.be/2y6cfMO6BjI" target="_blank">
+                        <button class="btn btn-success my-3" type="button">Zobacz film z wycieczki</button>
+                    </a>
                 </div>
             </div>
         </div>

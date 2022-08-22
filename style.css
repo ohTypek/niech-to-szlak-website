@@ -6,3 +6,18 @@ body::before {
 footer {
     border-top: 7px solid rgb(226, 97, 226);
 }
+#tekst {
+    width: 65%;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dashed #CCCC00;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 738px) {
+    #tekst {
+        width: 100%;
+    }
+}
