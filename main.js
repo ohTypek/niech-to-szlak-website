@@ -1,4 +1,4 @@
-window.onload = function odliczanie() {
+function odliczanie() {
 
     var czas = new Date();
 
@@ -12,3 +12,4 @@ window.onload = function odliczanie() {
     document.getElementById("p").innerHTML = godzina + ":" + minuta + ":" + sekunda;
     setTimeout("odliczanie()", 1000);
 }
+window.onload = odliczanie();

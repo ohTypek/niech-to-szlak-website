@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteRule strona-glowna index.html
+RewriteRule zdjecia-z-wyprawy photos.html
+RewriteRule opis-wyprawy info.html
+RewriteRule co-zabrać-w-gory takewith.html
+RewriteRule trasa-wyprawy road.html
+RewriteRule o-autorze-strony aboutme.html
+
+ErrorDocument 404 /page404.html

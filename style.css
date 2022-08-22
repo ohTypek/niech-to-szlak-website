@@ -15,6 +15,12 @@ footer {
     border: 2px dashed #CCCC00;
     border-radius: 10px;
 }
+.zdj {
+    overflow: hidden;
+}
+.zdj > img:hover {
+    transform: scale(1.7);
+}
 
 @media only screen and (max-width: 738px) {
     #tekst {
