@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Niech to Szlak</title>
+
+    <style>
+        body {
+            background-color: #eee;
+        }
+        h2 {
+            color: #00CC33;
+        }
+        .lead {
+            justify-content: center;
+        }
+        #tekst {
+            width: 65%;
+            background-color: #fff;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px dashed #CCCC00;
+            border-radius: 10px;
+        }
+        #film {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Niech To <span class="text-info">Szlak</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Strona Główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="photos.html" class="nav-link">Zdjęcia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Opis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Co zabrać</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Trasa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">O nas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- showcase -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start ">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-between">
+                <div>
+                    <h1 id="p"></h1>
+                    <p class="lead my-4">Omówienie rodzinnej wycieczki w góry</p>
+                    <button class="btn btn-primary btn-lg">Zobacz więcej</button>
+                </div>
+                <img src="img/ikona.png" alt="" class="img-fluid ms-auto w-50 d-none d-sm-block">
+            </div>
+        </div>
+    </section>
+
+    <!-- info -->
+    <section class="p-5">
+        <div class="container" id="tekst">
+            <div>
+
+                <!-- opis góry -->
+                <h2>Babia Góra</h2>
+                <p class="lead">
+                Masyw górski w Paśmie Babiogórskim należącym do Beskidu Żywieckiego w Beskidach Zachodnich (według słowackiej terminologii są to Oravské Beskydy). Najwyższym szczytem jest Diablak (1725 m, według Geoportalu 1722,9, niem. Teufelspitze, czyli Diabelski Szczyt), często nazywany również Babią Górą, jak cały masyw. Jest najwyższym szczytem Beskidów Zachodnich i poza Tatrami najwyższym szczytem w Polsce, drugim co do wybitności (po Śnieżce). Zaliczany jest do Korony Gór Polski.
+                Pochodzenie nazwy Babia Góra tłumaczą liczne legendy ludowe. Jedna z nich mówi, że jest to kupa kamieni wysypanych przed chałupą przez babę – olbrzymkę, według innej to kochanka zbójnika, która skamieniała z żalu widząc, jak niosą jej zabitego ukochanego. Według innych legend nazwa góry pochodzi od tego, że w jaskiniach pod tą górą zbójnicy ukrywali swoje branki. Nazwa może też mieć powiązanie z niektórymi znaczeniami słowa baba (rodzaj ciasta lub kamienny posąg kultowy). Wysokość i wybitność masywu Babiej Góry sprawiła, że w XIX w. nadano jej nazwę Królowej Beskidów, z powodu bardzo zmiennej pogody nazywana też była Matką Niepogód lub Kapryśnicą, a ostatnio mieszkańcy Orawy nazywają ją także Orawską Świętą Górą.
+                Beskidy, w tym również Babia Góra, uległy wypiętrzeniu w trzeciorzędzie, na obszarze pierwotnie zajmowanym przez Prakarpaty. Babia Góra zbudowana jest z fliszu piaskowcowo-łupkowego o dużej miąższości, o wyraźnym podziale na warstwy podmagurskie (piaskowce, łupki i margle powierzchniowe w dolnych partiach masywu) i magurskie (piaskowce o miąższości do 750 m). W skałach masywu odkryto liczne skamieniałości – głównie fauny numulitowej.
+                </p>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-4"><img src="img/wikipediainfo.png" alt="" class="img-fluid"></div>
+                <div class="col-md-4 ms-auto"><img src="img/mapa3.png" alt="" class="img-fluid"></div>
+            </div>
+
+            <!-- opis trasy -->
+            <div class="d-sm-flex align-items-center justify-between my-5">
+                <div>
+                    <h2>Opis Trasy</h2>
+                    <p>Data:
+                        <strong>26.07.2021</strong>
+                    </p>
+                    <p>
+                        Dytsans:
+                        <strong>14 km</strong>
+                    </p>
+                    <p>
+                        Czas trwania:
+                        <strong>5:32 h</strong>
+                    </p>
+                    <p>
+                        Najwyższy punkt:
+                        <strong>1725 m n.p.m</strong>
+                    </p>
+                    <p>
+                        Przewyższenia: 
+                        <strong>953 m</strong>
+                    </p>
+                </div>
+                <img src="img/Babia_Gora.jpg" alt="" class="img-fluid ms-auto w-30">
+            </div>
+
+            <!-- film -->
+            <div id="film" class="d-flex align-items-center justify-content-center">
+                <h2>Zobacz nasz film</h2>
+                <div>
+                    <button class="btn btn-success my-3 ms-auto" type="button">Zobacz film z wycieczki</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2022 Niech To Szlak</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5 d-none d-md-block">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+
+  </body>
+</html>

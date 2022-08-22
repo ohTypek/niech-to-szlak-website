@@ -1,0 +1,8 @@
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+}
+footer {
+    border-top: 7px solid rgb(226, 97, 226);
+}
