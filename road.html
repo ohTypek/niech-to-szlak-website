@@ -21,6 +21,28 @@
 
   </head>
   <body>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="enroll">Zobacz nasze inne wycieczki</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <a href="info.html"> <li>Babia Góra</li> </a>
+                    <a href="index.html"><li>wkrótce</li></a>
+                </ul>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
@@ -62,7 +84,7 @@
                 <div>
                     <h1 id="p"></h1>
                     <p class="lead my-4">Omówienie rodzinnej wycieczki w góry</p>
-                    <button class="btn btn-success btn-lg">Zobacz więcej</button>
+                    <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Zobacz więcej</button>
                 </div>
                 <img src="img/ikona.png" alt="" class="img-fluid ms-auto d-none d-sm-block">
             </div>

@@ -21,6 +21,9 @@ footer {
 .zdj > img:hover {
     transform: scale(1.7);
 }
+p {
+    text-align: justify;
+}
 
 @media only screen and (max-width: 738px) {
     #tekst {
